@@ -2,6 +2,17 @@
 
 This repository contains the code developed for the Cryptography discipline of the Masters in Computer Science course at PUCRS in 2022/1.
 
+## Tools and libraries used
+- [Clion](https://www.jetbrains.com/clion/)
+- Cmake 3.22.3
+- Network implemented using [C++ requests](https://github.com/libcpr/cpr)
+  - Curl 7.80.0
+
+# How to build and compile
+- Clone repository
+- Open project with Clion
+- Run default configuration or main function
+
 ## Task Description
 In this project you will experiment with a padding oracle attack against a toy website hosted at [crypto-class.appspot.com](crypto-class.appspot.com). Padding oracle vulnerabilities affect a wide variety of products, including secure tokens. This project will show how they can be exploited. Please see [Vaudenay's](https://link.springer.com/chapter/10.1007/3-540-46035-7_35) paper on padding oracle attack.
 
